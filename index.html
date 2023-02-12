@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <main>
+        <section class="game">
+            <div class="container">
+                <h1>Click Play!</h1>
+                <h2>#</h2>
+                <div class="players_table">
+                    <aside class="player_table player1_table">0</aside>
+                    <aside class="player_table player2_table">0</aside>
+                </div>
+                <div class="players">
+                    <div class="player player_1">
+                        <p class="player__name">Player 1</p>
+                        <div class="dice dice_1">
+                            <div class="one__wrapper">
+                                <div class="dice_circle"></div>
+                            </div>
+                            <div class="two__wrapper">
+                                <div class="dice_circle"></div>
+                                <div class="dice_circle"></div>
+                            </div>
+                            <div class="three__wrapper">
+                                <div class="dice_circle"></div>
+                                <div class="dice_circle"></div>
+                                <div class="dice_circle"></div>
+                            </div>
+                            <div class="four__wrapper">
+                                <div class="dice__half">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                                <div class="dice__half">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                            </div>
+                            <div class="five__wrapper">
+                                <div class="dice__third">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                                <div class="dice__third">
+                                    <div class="dice_circle"></div>
+                                </div>
+                                <div class="dice__third">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                            </div>
+                            <div class="six__wrapper">
+                                <div class="dice__half">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                                <div class="dice__half">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="player player_2">
+                        <p class="player__name">Player 2</p>
+                        <div class="dice dice_2">
+                            <div class="one__wrapper">
+                                <div class="dice_circle"></div>
+                            </div>
+                            <div class="two__wrapper">
+                                <div class="dice_circle"></div>
+                                <div class="dice_circle"></div>
+                            </div>
+                            <div class="three__wrapper">
+                                <div class="dice_circle"></div>
+                                <div class="dice_circle"></div>
+                                <div class="dice_circle"></div>
+                            </div>
+                            <div class="four__wrapper">
+                                <div class="dice__half">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                                <div class="dice__half">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                                
+                            </div>
+                            <div class="five__wrapper">
+                                <div class="dice__third">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                                <div class="dice__third">
+                                    <div class="dice_circle"></div>
+                                </div>
+                                <div class="dice__third">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                            </div>
+                            <div class="six__wrapper">
+                                <div class="dice__half">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                                <div class="dice__half">
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                    <div class="dice_circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="play" onclick="gameStart()">Play</button>
+            </div>
+        </section>
+        <div class="player_images player1_images">
+            <img class="Chad" src="img/chad.png" alt="chad">
+            <img class="Soyjack" src="img/soyjack.png" alt="soyjack">
+        </div>
+        <div class="player_images player2_images">
+            <img class="Soyjack" src="img/soyjack_reversed.png" alt="soyjack">
+            <img class="Chad" src="img/chad_reversed.png" alt="chad">
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
