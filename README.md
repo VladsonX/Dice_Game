@@ -1,4 +1,4 @@
-This is a Dice Game which you can play with your friend.
+This is a Dice Game - a joking project based on usual Dice game with crazy backgrounds of dices, which you can play with your friend.
 
 Code randomly generates the amount of circles on a certain dice (from 1 to 6), and then depending on a number of circles that each player has, write, who's the winner.
 
